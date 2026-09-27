@@ -17,6 +17,6 @@ class SectionsPagerAdapter(activity: AppCompatActivity) : FragmentStateAdapter(a
     }
 
     override fun getItemCount(): Int {
-        return 3 // Wajib diubah ke 3 agar muncul 3 tab
+        return 3
     }
 }

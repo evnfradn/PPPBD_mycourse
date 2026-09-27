@@ -4,27 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:padding="16dp"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".HomeFragment">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="16dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        style="@style/CustomTextView18Bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Praktikum Pemrograman Perangkat Bergerak" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="Manu"
-        style="@style/CustomTextView18Bold"/>
+        android:gravity="center"
+        android:text="Kelas praktikum ini mempelajari tentang styles, options menu, dan tabs layout pada Android menggunakan bahasa Kotlin." />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_oop"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Materi OOP"
-        style="@style/CustomRoundedButton" />
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_android"
-        android:layout_marginTop="16dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Materi Android"
-        style="@style/CustomRoundedButton" />
 </LinearLayout>

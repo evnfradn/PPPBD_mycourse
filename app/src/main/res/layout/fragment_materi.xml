@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".MateriFragment">
-    <!-- TODO: Update blank fragment layout -->
+
     <TextView
+        style="@style/CustomTextView18Bold"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Materi" />
-</FrameLayout>
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="Daftar Materi" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_materi_1"
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Materi OOP" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_materi_2"
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Materi Android" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_materi_3"
+        style="@style/CustomRoundedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Materi Intent" />
+
+</LinearLayout>

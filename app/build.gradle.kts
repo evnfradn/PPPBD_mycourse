@@ -43,7 +43,6 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
-    // Tambahan untuk Tab Layout & ViewPager2
     implementation("androidx.viewpager2:viewpager2:1.0.0")
 
     testImplementation(libs.junit)
